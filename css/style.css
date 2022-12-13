@@ -204,7 +204,6 @@
   z-index: 1;
   top: 50%;
   transform: translateY(-50%);
-  padding: 0 100px;
   width: 60%;
   text-shadow: 3px 3px 30px #8E8E8E
 }
@@ -613,7 +612,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 70px;
 }
 .contact__dics{
   color: #FFFFFF;
@@ -665,8 +663,9 @@
   
 }
 .footer__head{
-  padding: 80px 0;
-  margin: 0 10%
+  padding-top: 70px;
+  padding-bottom: 70px;
+
 }
 .footer__img{
   width: 130px;
@@ -675,7 +674,7 @@
 }
 .footer__h3{
   padding: 30px 0;
-  font-size: 22px;
+  font-size: 18px;
   color: #F3F3F3;
   font-weight:normal
 }
@@ -699,6 +698,7 @@
   line-height: 30px;
   font-weight: normal;
   text-transform: capitalize;
+  max-width: 300px;
 }
 .footer__a{
   color: #C2C2C2;
